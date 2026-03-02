@@ -15,6 +15,8 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
+// Note: org.kordamp.gradle.guide v0.39.0 is kept because it doesn't depend on JCenter
+// and its dependencies are available from Maven Central/Gradle Plugin Portal
 plugins {
     id("org.kordamp.gradle.guide") version "0.39.0"
 }

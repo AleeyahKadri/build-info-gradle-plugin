@@ -16,7 +16,7 @@
  * limitations under the License.
  */
 plugins {
-    id 'org.kordamp.gradle.guide'   version '0.39.0'
+    id("org.kordamp.gradle.guide") version "0.39.0"
 }
 
-version projectVersion
+version = project.property("projectVersion").toString()
